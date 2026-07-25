@@ -1,0 +1,33 @@
+{
+  "name": "nishcom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "install": "cd backend && npm install && cd ../frontend && npm install",
+  "dev:server": "cd backend && npm run dev",
+  "dev:client": "cd frontend && npm run dev",
+  "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+  "build": "cd frontend && npm run build"
+},
+
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshaf-thanish/NishCom-react.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "microservice"
+  ],
+  "author": "Thanish Anshaf",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/anshaf-thanish/NishCom-react/issues"
+  },
+  "homepage": "https://github.com/anshaf-thanish/NishCom-react#readme",
+  "dependencies": {
+    "concurrently": "^10.0.4"
+  }
+}
