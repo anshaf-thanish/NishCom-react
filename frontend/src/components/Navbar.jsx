@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="flex items-center gap-2 text-white text-2xl font-bold tracking-tight drop-shadow-[0_2px_10px_rgba(249,115,22,0.3)] ">
           <Link to="/" className="flex items-center gap-2 ">
             <img
-              src="/ShopNestLogo.png"
+              src="/NishComLogo.png"
               alt="NishCom"
               className="h-9 w-9 rounded-md object-cover drop-shadow-[0_2px_8px_rgba(249,115,22,0.35)] "
             />
