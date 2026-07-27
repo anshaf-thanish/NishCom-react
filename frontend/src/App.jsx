@@ -1,11 +1,13 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Home from './pages/Home'
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
 
 const App = () => {
  return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
       <div className="main-content">
         <Routes>
@@ -13,7 +15,7 @@ const App = () => {
         </Routes>
       </div>
       <Footer/> 
-    </Router>     
+    </BrowserRouter>     
   )
 }
 
